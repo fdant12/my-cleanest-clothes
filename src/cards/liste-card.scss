@@ -1,0 +1,27 @@
+.search {
+  padding: 8px;
+}
+
+.btn-search {
+  height: 26px;
+  border-radius: 6px !important;
+}
+
+.input-search {
+  height: 20px;
+  width: 460px;
+  margin-right: 5px;
+  border-radius: 6px !important;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  padding: 30px;
+}
+
+.card {
+  width: 320px;
+  height: 490px;
+}
