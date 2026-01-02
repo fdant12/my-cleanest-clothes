@@ -1,0 +1,10 @@
+<mat-card class="card">
+  <img width="320px" height="220px" mat-card-image [src]="data.image" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <div style="padding: 5px">
+      <h2>{{ data.title }}</h2>
+      <p>{{ data.text }}</p>
+    </div>
+    <a style="text-decoration-line: none" [href]="data.link">Learn More ></a>
+  </mat-card-content>
+</mat-card>
